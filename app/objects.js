@@ -7,7 +7,6 @@ exports.objectsAnswers =  {
 
   // still need a little review on this
   alterObjects : function(constructor, greeting) {
-    console.log(constructor.prototype);
     constructor.prototype.greeting = greeting;
   },
 
